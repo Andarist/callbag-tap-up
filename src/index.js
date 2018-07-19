@@ -4,7 +4,7 @@ export default function tapUp(onData, onError, onCompletion) {
     let talkback
     source(0, (type, data) => {
       if (type !== 0) {
-        talkback(type, data)
+        sink(type, data)
         return
       }
 
