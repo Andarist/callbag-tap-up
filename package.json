@@ -1,6 +1,6 @@
 {
   "name": "callbag-tap-up",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "👜 Callbag operator which performs a side effect for every upwards emission (from sink to source), but other than that it acts as noop.",
   "main": "dist/callbag-tap-up.js",
   "module": "dist/callbag-tap-up.esm.js",
